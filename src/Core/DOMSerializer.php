@@ -117,6 +117,8 @@ class DOMSerializer
 
     private function nodeHasMark($node, $mark): bool
     {
+        return true;
+        
         if (! $node) {
             return true;
         }
